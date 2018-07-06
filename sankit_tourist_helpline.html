@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html>
+<title>Tourism Helpline</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("tourist.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+</style>
+<head>
+  <script type="text/javascript">
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+  </script>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top" id="home">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="home.html" class="w3-bar-item w3-button w3-wide">Tourism Helpline</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="sankit tourist helpline.html" class="w3-bar-item w3-button">HOME</a>
+      <div class="w3-dropdown-hover">
+      <button class="w3-button">HELP-CENTER</button>
+      <div class="home"></div>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="complaints.html" class="w3-bar-item w3-button">Complaints</a>
+        <a href="Emergency.html" class="w3-bar-item w3-button">Distress call</a>
+        <a href="Authorities.html" class="w3-bar-item w3-button">Contact authorities</a>
+      </div>
+    </div>
+      <!--<a href="#category" class="w3-bar-item w3-button "><i class="fa fa-user"></i>CATEGORY</a>-->
+      <a href="about.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> ABOUT</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+   
+    </a>
+  </div>
+</div>
+
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" >
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Padharo Mare desh</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Padharo Mare desh</span><br>
+    <span class="w3-large">We care about you.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Tourism Helpline</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" >
+  <h3 class="w3-center">ABOUT THE HELPLINE</h3>
+  <p class="w3-center w3-large">Key features of Helpline</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Complaints</p>
+      <p>Use this Complaints Box wisely to register your Complaints and to report any unusual activities.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-envelope w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Distress call</p>
+      <p>Use this feature at the time of any emergency to seek help from local authority or to inform the family.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>We help those who are in trouble .</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>We are here to support if you seek it.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "Know your Rights" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Know your Rights.</h3>
+      <p>Having the right information at hand is always a good idea, particularly information about your rights as a tourist ; about your destination and the services and transport you use; and about formalities such as documents, visas, healthcare and currency.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View your Rights</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="humanrights.jpg" alt="rights" width="2000" height="1500">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" >
+  <h3 class="w3-center">TOURIST OFFICES</h3>
+  <p class="w3-center w3-large">GOVERNMENT OF RAJASTHAN TOURIST OFFICES</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="paryatan_bhavan.jpeg" alt="paryatan bhavan" style="width:100%">
+        <div class="w3-container">
+          <h3>DIRECTORATE OF TOURISM</h3>
+          <p>Paryatan Bhawan, Khasa Kothi Hotel Campus,
+       M.I.Road., Jaipur
+       Tel.: 0141-5155100,5110593
+       cot-dot@rajasthan.gov.in.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <a href="https://www.google.co.in/maps/place/Regional+Tourist+Office+%26+Tourist+Reception+Centre/@26.4708917,74.6403438,15z/data=!4m2!3m1!1s0x0:0xbc9089725ccff418?sa=X&ved=0ahUKEwiu6K_VhIrcAhWVXn0KHZOEBmIQ_BIIjgEwCg"><img src="ajmer.png" alt="Regional Tourist Office & Tourist Reception Centre" style="width:100%"></a>
+        <div class="w3-container">
+          <h3>AJMER</h3>
+          <p class="w3-opacity">Regional Tourist Office & Tourist Reception Centre</p>
+          <p>RTDC Hotel Khadim
+       Tel.: 0145-2627426/1364
+       Fax : 0145-2431330
+       Tourist Inf. Counter, Railway Station
+       trcajmer-dot@rajasthan.gov.in</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="alwar.png" alt="Tourist Reception Centre" style="width:100%">
+        <div class="w3-container">
+          <h3>ALWAR</h3>
+          <p class="w3-opacity">Tourist Reception Centre</p>
+          <p>Opp.Railway Station,
+       Tel.: 0144-2347348
+       trcalwar-dot@rajasthan.gov.in</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <a href="https://www.google.co.in/maps/place/Tourist+Information+Center+,Rajasthan+Government+%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%9F%E0%A4%95+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%95%E0%A5%87%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0,+%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8+%E0%A4%B8%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0/@26.9175412,75.7913793,16.07z/data=!4m8!1m2!2m1!1srajasthan+tourist+information+bureau+in+Rajasthan!3m4!1s0x0:0x39fa29be4824b6f3!8m2!3d26.9183965!4d75.7953644"><img src="barmer.png" alt="Dan" style="width:100%"></a>
+        <div class="w3-container">
+          <h3>BARMER</h3>
+          <p class="w3-opacity">Rajasthan Tourist Information Bureau</p>
+          <p>Tel.: 02992-252406
+         trcjaisal2992@gmail.com</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">LAND AREA </span>
+    <br> 342,239 sq. km
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">POPULATION  </span>
+    <br> 44 million
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">CAPITAL </span>
+    <br> Jaipur 
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">LANGUAGES</span>
+    <br>Rajasthani, Hindi, Marwari
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">RULES AND REGULATION</h3>
+  <p class="w3-center w3-large">No one is above the law.</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div>
+      <center><img src="rules_regulation.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="RULES AND REGULATION"></center>
+    </div>
+    <div >
+      <h3>  LEGAL RIGHTS OF WOMEN</h3>
+      <p>Only female officers can escort women to the police station. If there isn’t one, DON’T GO
+    Not only do male officers have no right to escort a woman but she can refuse to go to the police station between 6 pm to 6 am. In case of a serious crime, a written permit from the magistrate is required for male officers to escort her</p>
+    <p>Women can lodge complaints through emails at ncw@nic.in, our National Commission for Women.
+    Guidelines issued by the Delhi Police entitle women to the privilege of registering a complaint via email or even through post if she can’t go to the police station. Just do a quick internet search to get the contact details of your local police station</p>
+    <h3> PUBLIC PROTOCOL</h3>
+    <p><strong>PDA:</strong> A lot of the issues in Indian law stem from the fact that the vague wording of the Indian Penal Code gives the cops an unfair amount of wiggle room. While in the cities you might find rows of couples making out beneath skimpy scarves by the shoreline, more rural areas can tend to object to even holding hands or a peck on the cheek. Always try to gauge the atmosphere first, and if reprimanded by a police officer be apologetic to the point of grovelling, as rudeness and high-handedness will get you nowhere. Nudity or going topless in public is never an option at any beach, and on certain beaches in South India which are home to religious sites bikinis are best avoided as well to avoid giving offence.<p>
+    <p><strong>Public Nuisance:</strong> Section 268 defines this as “an illegal omission which causes any common injury, danger or annoyance to the public or to the people in general.” Note the use of the term ‘annoyance’, again widely open for interpretation. Avoid disturbing residents with loud noises, public drunkenness or anything that could be construed as vandalism. Sexual harassment is never appreciated either.</p>
+    <p><strong>Homosexuality:</strong> In 2013, the Indian Supreme Court brought back Section 377, a controversial law that penalizes “unnatural sex”. While most see this as a direct criminalization of homosexuality, it has two further consequences: LGBTQ individuals who DO NOT indulge in any kind of sexual activity while in the country may still find themselves harassed if their sexuality is made public. That said, there are several NGOs and other organizations working for the community that will always lend support such as The Lawyers Collective. The second implication is that straight couples caught engaging in anal and oral sex are technically also punishable under this law, which deems only peno-vaginal penetration as legal. While it’s highly unlikely that the police are going to burst into your room and pull back the covers, it’s always good to know exactly where you stand with the law.</p>
+    <p><strong>Recording:</strong> You obviously want a trove of videos and photographs to take home, and India provides a multitude of photo ops, but try and be a little careful in sensitive areas. Military and government zones, crowed airports and railway stations are always on high alert for security threats, you don’t want to be mistaken for one. If there’s any chance you’re carrying binoculars, put those away as well.</p>
+    <h3>SUBSTANCE LAWS</h3>
+    <p><strong>Alcohol:</strong> The legal age for drinking varies from state to state from 18 to 25, so do some local research before you go. A distinction is usually made between mild liquor (beer and wine) and hard (spirits). Avoid any local liquors not vetted by your hotel manager or tour guide, and again, no public drunkenness. If an election is nearing, alcohol may be banned for a couple of days prior, and days of local religious or political significance are also usually dry. Some states are dry year round, or require a permit to buy, transport or consume alcohol. Carriage of alcohol between states is often illegal due to the varying alcohol laws, you may be stopped for a random check.</p>
+    <p><strong>Drugs:</strong> Unequivocally illegal. Cigarettes and chewing tobacco are available on every street corner and don’t carry much social stigma, but for anything else there is a minimum sentence of 6 months for possession of small amounts deemed for personal consumption only, and a 10-year sentence for possession of anything sufficient for trafficking. Convicted offenders can expect fines and a minimum jail sentence of 10 years.</p>
+    <p><strong>Beef:</strong> In 2015, several states declared a blanket ban on export, import and sale of beef and beef products, a continuation of the prevention of cow slaughter laws. Deliberate killing or maiming of a cow can attract a five year prison sentence, so be careful when you drive!</p>
+    <h3>CONTRABAND</h3>
+    <p>Transport and possession of firearms, antiquities, electronic equipment, local currency, ivory, gold objects and pornographic materials are all regulated by the government. Non-residents are prohibited from importing or exporting the Indian rupee, while limits are imposed on residents. For more information, consult India’s Central Board of Excise and Customs. Antiques, specifically, must be registered with local police, along with a photograph of each item. Satellite phones are illegal.</p>
+    <h3>IDENTIFICATION</h3>
+    <p>Carry your passport with you at all times, you will require it for all check-ins at hotels or airports. If you’re brave enough to drive in Indian traffic, make sure you have an international driving permit and a helmet for motorcyclists and passengers.<p>
+ 
+
+    <p>The Indian legal process is cumbersome and lengthy and you should do your best to avoid any brush with the law. Individuals arrested on a major offence can languish in jail for years before a verdict is reached, and Indian red-tapism can hamper with your consulate’s attempts to help.  Always keep in mind your rights and defend your innocence, but courteously.
+
+    Now that you know the legal dos and don’ts, Happy Travelling to you!</p>
+      
+    </div>
+    
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us your Feedback:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Rajasthan, India</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 25333</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <br>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>
+    <div class="w3-half">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(26.9183088,75.7925564);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
