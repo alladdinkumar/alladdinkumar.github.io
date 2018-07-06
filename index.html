@@ -98,7 +98,6 @@ function topFunction() {
   <div class="w3-display-left w3-text-white" style="padding:48px">
     <span class="w3-jumbo w3-hide-small">Padharo Mare desh</span><br>
     <span class="w3-xxlarge w3-hide-large w3-hide-medium">Padharo Mare desh</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Website under construction</span><br>
     <span class="w3-large">We care about you.</span>
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Tourism Helpline</a></p>
   </div> 
@@ -111,7 +110,7 @@ function topFunction() {
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
 </header>
-
+<center><h2 style="background-color: red" >Website under construction</h2></center>
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" >
   <h3 class="w3-center">ABOUT THE HELPLINE</h3>
@@ -311,10 +310,6 @@ function topFunction() {
         </p>
       </form>
     </div>
-    <div class="w3-half">
-      <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
-    </div>
   </div>
 </div>
 
@@ -334,21 +329,7 @@ function topFunction() {
  
 <!-- Add Google Maps -->
 <script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(26.9183088,75.7925564);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
 
 // Modal Image Gallery
 function onClick(element) {
