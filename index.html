@@ -302,15 +302,14 @@ function topFunction() {
       <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: rtdc.tourism.rajasthan.gov.in</p>
       <br>
       <form action="/action_page.php" target="_blank">
-        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><var id="name"><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></var></p>
+        <p><var id="email"><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></var></p>
         <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
         <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-        <p>
-          <button class="w3-button w3-black" type="submit">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rtdc.tourism.rajasthan.gov.in&su=SUBJECT&body=BODY"><p><button class="w3-button w3-black" type="submit" >
             <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </p>
+          </button></p></a>
+        
       </form>
     </div>
   </div>
